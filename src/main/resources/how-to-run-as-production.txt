@@ -1,0 +1,5 @@
+#MAVEN
+mvn spring-boot:run -Dspring-boot.run.arguments=--spring.profiles.active=production
+
+#Docker
+docker run -d -e "spring.profiles.active=production" jroqueb1/jroqueb1/config-server
